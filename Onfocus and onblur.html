@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Onfocus and Onblur</title>
+</head>
+<body>
+<script>
+function highlightyellow(x)
+{
+x.style.background="yellow";
+}
+
+function regular(x)
+{
+x.style.background="white";
+}
+</script>
+
+
+Enter your name: 
+<input type="text" onfocus="highlightyellow(this)" onblur="regular(this)">
+Enter your email: 
+<input type="text" onfocus="highlightyellow(this)" onblur="regular(this)">
+Enter your phone number: 
+<input type="text" onfocus="highlightyellow(this)" onblur="regular(this)">
+</body>
+</html>
